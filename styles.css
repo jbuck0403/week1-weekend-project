@@ -1,0 +1,32 @@
+.main-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+}
+
+.nav-bar {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.focus-on-your-business {
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+.start-to-explore-double-tap {
+  grid-area: 3 / 1 / 4 / 2;
+}
+
+.start-accepting-payments {
+  grid-area: 4 / 1 / 5 / 2;
+}
+
+.solutions-to-fit-business-needs {
+  grid-area: 5 / 1 / 6 / 2;
+}
+
+.footer {
+  grid-area: 6 / 1 / 7 / 2;
+}
