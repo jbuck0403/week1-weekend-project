@@ -55,7 +55,8 @@
   height: 8vh;
   width: 13.8vw;
   margin-right: 1vw;
-  border-radius: 20px;
+  border-radius: 1vw;
+  border-width: 0.2vw;
   font-weight: bold;
   margin-bottom: 2vh;
 }
@@ -99,6 +100,7 @@
 .chat-with-us-btn img {
   position: absolute;
   height: 2.5vh;
+  width: auto;
   margin-left: -11.5%;
 }
 
@@ -148,13 +150,13 @@
 }
 
 .selling-points-container img {
-  width: 7px;
-  height: 10px;
+  width: 0.325vw;
+  height: 0.65vh;
   margin: 0px 0.7vw;
 }
 
 .header-side-1-image {
-  margin-top: 5vh;
+  margin-top: 5vmin;
   margin-left: 12%;
   height: auto;
   width: 82%;
