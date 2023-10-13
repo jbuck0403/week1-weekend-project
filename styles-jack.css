@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.section-1-container {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+}
+
+.focus-on-your-business-main-container {
+  width: 100%;
+  margin-left: 20%;
+}
+
+.focus-on-your-business {
+  font-size: 4.7vw;
+  font-weight: bolder;
+  width: 100%;
+  margin-bottom: 5vh;
+}
+
+.let-us-handle {
+  font-size: 2.4vw;
+  font-weight: 500;
+  margin-bottom: 2vh;
+}
+
+.subscription-billing-paragraph {
+  color: rgba(0, 0, 0, 0.35);
+  font-size: 1.3vw;
+  width: 80%;
+  margin-bottom: 5vh;
+}
+
+.sign-up-and-chat-container {
+  width: 100%;
+  display: flex;
+  margin-bottom: 1.5vh;
+}
+
+.sign-up-and-chat-container button {
+  font-size: 1.4vw;
+  height: 8vh;
+  width: 13.8vw;
+  margin-right: 1vw;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-bottom: 2vh;
+}
+
+.sign-up-free-btn {
+  background-color: #0850f8;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-color: #0850f8;
+  margin-right: 12px;
+}
+
+.sign-up-free-btn:hover {
+  background-color: white;
+  color: #0850f8;
+}
+
+#sign-up-free-btn-double-angle {
+  font-size: 1.8vw;
+  font-weight: 100;
+}
+
+.chat-with-us-btn {
+  display: flex;
+  font-size: 1.4vw;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 3vw;
+  border-color: #0850f8;
+  background-color: white;
+  color: #0850f8;
+}
+
+.chat-with-us-btn:hover {
+  background-color: #0850f8;
+  color: white;
+}
+
+.chat-with-us-btn img {
+  position: absolute;
+  height: 2.5vh;
+  margin-left: -11.5%;
+}
+
+.chat-with-us-btn:hover #blue-chat {
+  opacity: 0;
+}
+
+#white-chat {
+  z-index: 1;
+}
+
+#blue-chat {
+  z-index: 2;
+}
+
+.sign-in-prompt {
+  font-size: 1.375vw;
+  display: flex;
+  margin-bottom: 3vh;
+  color: rgba(0, 0, 0, 0.35);
+}
+
+#double {
+  margin-left: 0.3vw;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.sign-in-prompt a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.486);
+  padding-left: 0.3vw;
+}
+
+.sign-in-prompt a:hover {
+  color: #0850f8;
+}
+
+.selling-points-container {
+  display: flex;
+  align-items: center;
+}
+
+.selling-points-container div {
+  font-weight: bold;
+  font-size: 0.9vw;
+}
+
+.selling-points-container img {
+  width: 7px;
+  height: 10px;
+  margin: 0px 0.7vw;
+}
+
+.header-side-1-image {
+  margin-top: 5vh;
+  margin-left: 12%;
+  height: auto;
+  width: 82%;
+}
