@@ -1,11 +1,3 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Inter", sans-serif;
-  font-family: "Roboto", sans-serif;
-}
-
 .section-1-container {
   width: 100%;
   height: 100%;
@@ -150,9 +142,9 @@
 }
 
 .selling-points-container img {
-  width: 0.325vw;
-  height: 0.65vh;
-  margin: 0px 0.7vw;
+  width: 0.35vw;
+  height: 1vh;
+  margin: 0 0.7vw;
 }
 
 .header-side-1-image {
