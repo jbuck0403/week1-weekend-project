@@ -38,6 +38,7 @@ img {
   border-radius: 0.2vw;
   background-color: white;
   padding-left: 50px;
+  width: auto;
 }
 
 .learn-more-caret {
