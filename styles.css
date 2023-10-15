@@ -24,8 +24,9 @@
 }
 
 .solutions-to-fit-business-needs {
-  grid-area: 5 / 1 / 6 / 2;
-}
+  grid-area: ; 5 / 1 / 6 / 2;
+  }
+  
 
 .footer {
   grid-area: 6 / 1 / 7 / 2;
