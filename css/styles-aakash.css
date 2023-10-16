@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.start-to-explore-double-tap{
+  display:flex;
+  flex-direction: column;
+ }
+
+#exploreBlock {
+  display: flex;
+  flex-direction: column;
+  /* align-items:relative; */
+  justify-content: space-around;
+  text-align: relative;
+ }
+
+.exploreIcons{
+  display: flex;
+  margin:5%;
+  padding:5%;
+  justify-content: space-around;
+  /* border: 1px solid black; */
+}
+
+p2 {
+  position: absolute;
+  font-size: 35px;
+}
+.eIcon1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:baseline;
+  border: 1px solid gray;
+  padding: 5%;
+  width: 40px;
+  Height: 40px;
+  border-radius: 10px;
+  background-color: #0850f8;
+}
+.eIcon{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid gray;
+  padding: 5%;
+  width: 40px;
+  Height:40px;
+  border-radius: 10px;
+  background-color: rgb(245, 245, 245);
+}
+
+.start-accepting-payments{
+  display:flex;
+  border: 1px solid gray;
+  border-radius: 10px;
+  height:450px;
+  align-items:center;
+  margin:5%;
+}
+.cardBenefits {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius:0px 10px 10px 0px;
+  background-color: #0850F8;
+  width:800px;
+  height: 450px;
+  padding-left: 30px;
+  color:beige;
+}
+ ul {
+   list-style-type: none;
+   padding: 0;
+}
+
+ li::before {
+   content: "-";
+   color:beige;
+   font-size: 18px;
+   margin-right: 5px;
+}
+#learn-more-btn{
+  width:30%;
+  height: 30px;
+  color:beige;
+  border: 2px solid beige;
+  background-color: #0850F8;
+  border-radius: 5px;
+}
